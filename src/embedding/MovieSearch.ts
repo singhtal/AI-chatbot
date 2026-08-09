@@ -1,60 +1,87 @@
-import { generateEmbeddings, loadJSON } from "./data";
+import { generateEmbeddings, loadJSON } from "./generateEmbeddings";
+import { createInterface } from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
 function dotProduct(a: number[], b: number[]) {
-    return a.map((value, index) => value * b[index]).reduce((a, b) => a + b, 0);
+    return a
+        .map((value, index) => value * b[index])
+        .reduce((a, b) => a + b, 0);
 }
 
 function cosineSimilarity(a: number[], b: number[]) {
     const product = dotProduct(a, b);
 
-    const aMagnitude = Math.sqrt(a.map(value => value * value).reduce((a, b) => a + b, 0));
-    const bMagnitude = Math.sqrt(b.map(value => value * value).reduce((a, b) => a + b, 0));
+    const aMagnitude = Math.sqrt(
+        a.map(value => value * value)
+            .reduce((a, b) => a + b, 0)
+    );
+
+    const bMagnitude = Math.sqrt(
+        b.map(value => value * value)
+            .reduce((a, b) => a + b, 0)
+    );
 
     return product / (aMagnitude * bMagnitude);
 }
 
 async function main() {
-    const dataWithEmbeddings = loadJSON('MoviesDataWithEmbeddings.json');
+    const rl = createInterface({ input, output });
 
-    const input = 'Super hero';
+    const movieType = await rl.question(
+        "What movie type are you looking for? "
+    );
 
-    const inputEmbedding = await generateEmbeddings(input);
+    rl.close();
 
-    const similaties: {
-        title: string,
-        cast: string[],
-        similarity: number
+    const dataWithEmbeddings = loadJSON<any[]>(
+        "data/MoviesDataWithEmbeddings.json"
+    );
+
+    const inputEmbedding = await generateEmbeddings(movieType);
+
+    const inputVector = inputEmbedding.embeddings?.[0]?.values;
+
+    if (!inputVector) {
+        throw new Error("Failed to generate embedding vector.");
+    }
+
+    const similarities: {
+        title: string;
+        cast: string[];
+        similarity: number;
     }[] = [];
 
-    for (const entry of dataWithEmbeddings as any) {
+    for (const entry of dataWithEmbeddings) {
 
         if (!entry.embedding) {
-            console.log(`Skipping ${entry.input}: no embedding`);
+            console.log(`Skipping ${entry.title}: no embedding`);
             continue;
         }
 
-        const InputValue = inputEmbedding.embeddings?.[0]?.values;
-        if (!InputValue) {
-            throw new Error("Failed to generate embedding vector.");
-        }
         const similarity = cosineSimilarity(
             entry.embedding,
-            InputValue
-        )
+            inputVector
+        );
 
-        similaties.push({
+        similarities.push({
             similarity,
             title: entry.title,
-            cast: entry.cast,
-
-        })
+            cast: entry.cast
+        });
     }
 
-    console.log(`Similarity of ${input} with: `);
-    const sortedSimilarity = similaties.sort((a, b) => b.similarity - a.similarity).slice(0,9);
-    sortedSimilarity.forEach(similarity => {
-        console.log(`${similarity.title}: ${similarity.similarity} ${similarity.cast}`)
-    })
+    const sortedSimilarity = similarities
+        .sort((a, b) => b.similarity - a.similarity)
+
+    console.log(`\nMovies matching "${movieType}":`);
+
+    sortedSimilarity.forEach(movie => {
+        console.log(
+            `${movie.title}: ${movie.similarity.toFixed(4)} | Cast: ${movie.cast.join(", ")}`
+        );
+    });
+
+    return sortedSimilarity;
 }
 
 main();

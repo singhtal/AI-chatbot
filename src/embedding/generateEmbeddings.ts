@@ -31,7 +31,7 @@ export async function generateEmbeddings(input: string) {
 }
 
 async function main() {
-    const data = loadJSON<any[]>('movies_list.json');
+    const data = loadJSON<any[]>('data/movies_list.json');
 
     const dataWithEmbeddings = await Promise.all(
         data.map(async (movie) => {
