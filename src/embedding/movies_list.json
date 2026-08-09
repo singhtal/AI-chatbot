@@ -1,0 +1,447 @@
+[
+  {
+    "title": "Interstellar",
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain", "Michael Caine"]
+  },
+  {
+    "title": "The Dark Knight",
+    "genres": ["Action", "Crime", "Drama"],
+    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Michael Caine"]
+  },
+  {
+    "title": "Inception",
+    "genres": ["Action", "Sci-Fi", "Thriller"],
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page", "Tom Hardy"]
+  },
+  {
+    "title": "Oppenheimer",
+    "genres": ["Biography", "Drama", "History"],
+    "cast": ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Jr."]
+  },
+  {
+    "title": "Dune",
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "cast": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson", "Oscar Isaac"]
+  },
+  {
+    "title": "Dune: Part Two",
+    "genres": ["Action", "Adventure", "Drama"],
+    "cast": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson", "Austin Butler"]
+  },
+  {
+    "title": "The Batman",
+    "genres": ["Action", "Crime", "Drama"],
+    "cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano", "Colin Farrell"]
+  },
+  {
+    "title": "Joker",
+    "genres": ["Crime", "Drama", "Thriller"],
+    "cast": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz", "Frances Conroy"]
+  },
+  {
+    "title": "Barbie",
+    "genres": ["Adventure", "Comedy", "Fantasy"],
+    "cast": ["Margot Robbie", "Ryan Gosling", "America Ferrera", "Will Ferrell"]
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "cast": ["Michelle Yeoh", "Ke Huy Quan", "Stephanie Hsu", "Jamie Lee Curtis"]
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "genres": ["Action", "Drama"],
+    "cast": ["Tom Cruise", "Miles Teller", "Jennifer Connelly", "Jon Hamm"]
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "cast": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver", "Kate Winslet"]
+  },
+  {
+    "title": "Avengers: Endgame",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Scarlett Johansson"]
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Robert Downey Jr.", "Chris Hemsworth", "Chris Evans", "Josh Brolin"]
+  },
+  {
+    "title": "Iron Man",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Robert Downey Jr.", "Gwyneth Paltrow", "Jeff Bridges", "Terrence Howard"]
+  },
+  {
+    "title": "Iron Man 3",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Guy Pearce"]
+  },
+  {
+    "title": "Black Panther",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira"]
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "genres": ["Action", "Adventure", "Drama"],
+    "cast": ["Letitia Wright", "Lupita Nyong'o", "Danai Gurira", "Tenoch Huerta"]
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Tobey Maguire"]
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "genres": ["Animation", "Action", "Adventure"],
+    "cast": ["Shameik Moore", "Hailee Steinfeld", "Oscar Isaac", "Jake Johnson"]
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "genres": ["Animation", "Action", "Adventure"],
+    "cast": ["Shameik Moore", "Jake Johnson", "Hailee Steinfeld", "Mahershala Ali"]
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista", "Bradley Cooper"]
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista", "Will Poulter"]
+  },
+  {
+    "title": "Doctor Strange",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "cast": ["Benedict Cumberbatch", "Rachel McAdams", "Chiwetel Ejiofor", "Tilda Swinton"]
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "cast": ["Chris Hemsworth", "Tom Hiddleston", "Cate Blanchett", "Mark Ruffalo"]
+  },
+  {
+    "title": "Deadpool",
+    "genres": ["Action", "Comedy", "Superhero"],
+    "cast": ["Ryan Reynolds", "Morena Baccarin", "T. J. Miller", "Ed Skrein"]
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "genres": ["Action", "Comedy", "Superhero"],
+    "cast": ["Ryan Reynolds", "Hugh Jackman", "Emma Corrin", "Matthew Macfadyen"]
+  },
+  {
+    "title": "Logan",
+    "genres": ["Action", "Drama", "Sci-Fi"],
+    "cast": ["Hugh Jackman", "Patrick Stewart", "Dafne Keen", "Boyd Holbrook"]
+  },
+  {
+    "title": "The Avengers",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson", "Chris Hemsworth"]
+  },
+  {
+    "title": "Man of Steel",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Henry Cavill", "Amy Adams", "Michael Shannon", "Russell Crowe"]
+  },
+  {
+    "title": "Wonder Woman",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "cast": ["Gal Gadot", "Chris Pine", "Robin Wright", "Connie Nielsen"]
+  },
+  {
+    "title": "Aquaman",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "cast": ["Jason Momoa", "Amber Heard", "Willem Dafoe", "Patrick Wilson"]
+  },
+  {
+    "title": "Mission: Impossible – Fallout",
+    "genres": ["Action", "Adventure", "Thriller"],
+    "cast": ["Tom Cruise", "Henry Cavill", "Rebecca Ferguson", "Simon Pegg"]
+  },
+  {
+    "title": "Arrival",
+    "genres": ["Drama", "Sci-Fi", "Mystery"],
+    "cast": ["Amy Adams", "Jeremy Renner", "Forest Whitaker", "Michael Stuhlbarg"]
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "genres": ["Comedy", "Drama"],
+    "cast": ["Leonardo DiCaprio", "Brad Pitt", "Margot Robbie", "Al Pacino"]
+  },
+  {
+    "title": "The Revenant",
+    "genres": ["Adventure", "Drama", "Western"],
+    "cast": ["Leonardo DiCaprio", "Tom Hardy", "Domhnall Gleeson", "Will Poulter"]
+  },
+  {
+    "title": "The Great Gatsby",
+    "genres": ["Drama", "Romance"],
+    "cast": ["Leonardo DiCaprio", "Carey Mulligan", "Tobey Maguire", "Joel Edgerton"]
+  },
+  {
+    "title": "The Devil Wears Prada",
+    "genres": ["Comedy", "Drama"],
+    "cast": ["Meryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
+  },
+  {
+    "title": "Les Misérables",
+    "genres": ["Drama", "Musical", "Romance"],
+    "cast": ["Hugh Jackman", "Anne Hathaway", "Russell Crowe", "Amanda Seyfried"]
+  },
+  {
+    "title": "The Intern",
+    "genres": ["Comedy", "Drama"],
+    "cast": ["Robert De Niro", "Anne Hathaway", "Rene Russo", "Adam Devine"]
+  },
+  {
+    "title": "Ocean's 8",
+    "genres": ["Comedy", "Crime", "Thriller"],
+    "cast": ["Sandra Bullock", "Cate Blanchett", "Anne Hathaway", "Rihanna"]
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "genres": ["Action", "Crime", "Drama"],
+    "cast": ["Christian Bale", "Tom Hardy", "Anne Hathaway", "Joseph Gordon-Levitt"]
+  },
+  {
+    "title": "Passengers",
+    "genres": ["Drama", "Romance", "Sci-Fi"],
+    "cast": ["Chris Pratt", "Jennifer Lawrence", "Michael Sheen", "Laurence Fishburne"]
+  },
+  {
+    "title": "The Hunger Games",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth", "Woody Harrelson"]
+  },
+  {
+    "title": "The Hunger Games: Catching Fire",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "cast": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth", "Philip Seymour Hoffman"]
+  },
+  {
+    "title": "Silver Linings Playbook",
+    "genres": ["Comedy", "Drama", "Romance"],
+    "cast": ["Bradley Cooper", "Jennifer Lawrence", "Robert De Niro", "Jacki Weaver"]
+  },
+  {
+    "title": "Don't Look Up",
+    "genres": ["Comedy", "Drama", "Sci-Fi"],
+    "cast": ["Leonardo DiCaprio", "Jennifer Lawrence", "Meryl Streep", "Jonah Hill"]
+  },
+  {
+    "title": "A Quiet Place",
+    "genres": ["Drama", "Horror", "Sci-Fi"],
+    "cast": ["Emily Blunt", "John Krasinski", "Millicent Simmonds", "Noah Jupe"]
+  },
+  {
+    "title": "A Quiet Place Part II",
+    "genres": ["Drama", "Horror", "Sci-Fi"],
+    "cast": ["Emily Blunt", "Cillian Murphy", "Millicent Simmonds", "Noah Jupe"]
+  },
+  {
+    "title": "Get Out",
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "cast": ["Daniel Kaluuya", "Allison Williams", "Bradley Whitford", "Catherine Keener"]
+  },
+  {
+    "title": "Us",
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "cast": ["Lupita Nyong'o", "Winston Duke", "Elisabeth Moss", "Tim Heidecker"]
+  },
+  {
+    "title": "Nope",
+    "genres": ["Horror", "Mystery", "Sci-Fi"],
+    "cast": ["Daniel Kaluuya", "Keke Palmer", "Steven Yeun", "Michael Wincott"]
+  },
+  {
+    "title": "Hereditary",
+    "genres": ["Drama", "Horror", "Mystery"],
+    "cast": ["Toni Collette", "Alex Wolff", "Milly Shapiro", "Gabriel Byrne"]
+  },
+  {
+    "title": "M3GAN",
+    "genres": ["Horror", "Sci-Fi", "Thriller"],
+    "cast": ["Allison Williams", "Violet McGraw", "Ronny Chieng", "Amie Donald"]
+  },
+  {
+    "title": "Smile",
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "cast": ["Sosie Bacon", "Kyle Gallner", "Caitlin Stasey", "Jessie T. Usher"]
+  },
+  {
+    "title": "Talk to Me",
+    "genres": ["Horror", "Thriller"],
+    "cast": ["Sophie Wilde", "Alexandra Jensen", "Joe Bird", "Otis Dhanji"]
+  },
+  {
+    "title": "A Quiet Place: Day One",
+    "genres": ["Drama", "Horror", "Sci-Fi"],
+    "cast": ["Lupita Nyong'o", "Joseph Quinn", "Alex Wolff", "Djimon Hounsou"]
+  },
+  {
+    "title": "Knives Out",
+    "genres": ["Comedy", "Crime", "Mystery"],
+    "cast": ["Daniel Craig", "Chris Evans", "Ana de Armas", "Jamie Lee Curtis"]
+  },
+  {
+    "title": "Glass Onion",
+    "genres": ["Comedy", "Crime", "Mystery"],
+    "cast": ["Daniel Craig", "Edward Norton", "Janelle Monáe", "Kate Hudson"]
+  },
+  {
+    "title": "The Menu",
+    "genres": ["Comedy", "Horror", "Thriller"],
+    "cast": ["Ralph Fiennes", "Anya Taylor-Joy", "Nicholas Hoult", "Hong Chau"]
+  },
+  {
+    "title": "Parasite",
+    "genres": ["Drama", "Thriller"],
+    "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik"]
+  },
+  {
+    "title": "Poor Things",
+    "genres": ["Comedy", "Drama", "Romance"],
+    "cast": ["Emma Stone", "Mark Ruffalo", "Willem Dafoe", "Ramy Youssef"]
+  },
+  {
+    "title": "The Whale",
+    "genres": ["Drama"],
+    "cast": ["Brendan Fraser", "Sadie Sink", "Hong Chau", "Ty Simpkins"]
+  },
+  {
+    "title": "The Banshees of Inisherin",
+    "genres": ["Comedy", "Drama"],
+    "cast": ["Colin Farrell", "Brendan Gleeson", "Kerry Condon", "Barry Keoghan"]
+  },
+  {
+    "title": "1917",
+    "genres": ["Drama", "War"],
+    "cast": ["George MacKay", "Dean-Charles Chapman", "Mark Strong", "Andrew Scott"]
+  },
+  {
+    "title": "Dunkirk",
+    "genres": ["Action", "Drama", "War"],
+    "cast": ["Fionn Whitehead", "Tom Hardy", "Mark Rylance", "Kenneth Branagh"]
+  },
+  {
+    "title": "All Quiet on the Western Front",
+    "genres": ["Drama", "War"],
+    "cast": ["Felix Kammerer", "Albrecht Schuch", "Aaron Hilmer", "Daniel Brühl"]
+  },
+  {
+    "title": "Ford v Ferrari",
+    "genres": ["Action", "Biography", "Drama"],
+    "cast": ["Matt Damon", "Christian Bale", "Jon Bernthal", "Caitriona Balfe"]
+  },
+  {
+    "title": "The Social Network",
+    "genres": ["Biography", "Drama"],
+    "cast": ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake", "Armie Hammer"]
+  },
+  {
+    "title": "Moneyball",
+    "genres": ["Biography", "Drama", "Sport"],
+    "cast": ["Brad Pitt", "Jonah Hill", "Philip Seymour Hoffman", "Chris Pratt"]
+  },
+  {
+    "title": "La La Land",
+    "genres": ["Comedy", "Drama", "Music"],
+    "cast": ["Ryan Gosling", "Emma Stone", "John Legend", "Rosemarie DeWitt"]
+  },
+  {
+    "title": "The Greatest Showman",
+    "genres": ["Biography", "Drama", "Musical"],
+    "cast": ["Hugh Jackman", "Zac Efron", "Zendaya", "Michelle Williams"]
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "genres": ["Biography", "Drama", "Music"],
+    "cast": ["Rami Malek", "Lucy Boynton", "Gwilym Lee", "Ben Hardy"]
+  },
+  {
+    "title": "Elvis",
+    "genres": ["Biography", "Drama", "Music"],
+    "cast": ["Austin Butler", "Tom Hanks", "Olivia DeJonge", "Dacre Montgomery"]
+  },
+  {
+    "title": "Whiplash",
+    "genres": ["Drama", "Music"],
+    "cast": ["Miles Teller", "J. K. Simmons", "Paul Reiser", "Melissa Benoist"]
+  },
+  {
+    "title": "The Prestige",
+    "genres": ["Drama", "Mystery", "Sci-Fi"],
+    "cast": ["Christian Bale", "Hugh Jackman", "Scarlett Johansson", "Michael Caine"]
+  },
+  {
+    "title": "Shutter Island",
+    "genres": ["Mystery", "Thriller"],
+    "cast": ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley", "Michelle Williams"]
+  },
+  {
+    "title": "The Departed",
+    "genres": ["Crime", "Drama", "Thriller"],
+    "cast": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg"]
+  },
+  {
+    "title": "Prisoners",
+    "genres": ["Crime", "Drama", "Mystery"],
+    "cast": ["Hugh Jackman", "Jake Gyllenhaal", "Viola Davis", "Paul Dano"]
+  },
+  {
+    "title": "Gone Girl",
+    "genres": ["Drama", "Mystery", "Thriller"],
+    "cast": ["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris", "Tyler Perry"]
+  },
+  {
+    "title": "Nightcrawler",
+    "genres": ["Crime", "Drama", "Thriller"],
+    "cast": ["Jake Gyllenhaal", "Rene Russo", "Riz Ahmed", "Bill Paxton"]
+  },
+  {
+    "title": "Ford v Ferrari",
+    "genres": ["Action", "Biography", "Drama"],
+    "cast": ["Matt Damon", "Christian Bale", "Jon Bernthal", "Caitriona Balfe"]
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "genres": ["Adventure", "Comedy", "Drama"],
+    "cast": ["Ralph Fiennes", "Tony Revolori", "Saoirse Ronan", "Adrien Brody"]
+  },
+  {
+    "title": "Jojo Rabbit",
+    "genres": ["Comedy", "Drama", "War"],
+    "cast": ["Roman Griffin Davis", "Thomasin McKenzie", "Scarlett Johansson", "Taika Waititi"]
+  },
+  {
+    "title": "1917",
+    "genres": ["Drama", "War"],
+    "cast": ["George MacKay", "Dean-Charles Chapman", "Colin Firth", "Benedict Cumberbatch"]
+  },
+  {
+    "title": "The Irishman",
+    "genres": ["Biography", "Crime", "Drama"],
+    "cast": ["Robert De Niro", "Al Pacino", "Joe Pesci", "Harvey Keitel"]
+  },
+  {
+    "title": "Ford v Ferrari",
+    "genres": ["Action", "Biography", "Drama"],
+    "cast": ["Matt Damon", "Christian Bale", "Jon Bernthal", "Caitriona Balfe"]
+  },
+  {
+    "title": "Wonka",
+    "genres": ["Adventure", "Comedy", "Fantasy"],
+    "cast": ["Timothée Chalamet", "Olivia Colman", "Hugh Grant", "Keegan-Michael Key"]
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "genres": ["Animation", "Adventure", "Comedy"],
+    "cast": ["Chris Pratt", "Anya Taylor-Joy", "Charlie Day", "Jack Black"]
+  }
+]
