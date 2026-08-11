@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "movie": "node -r ts-node/register --env-file=.env src/embedding/MovieSearch.ts",
-    "start": "node -r ts-node/register --env-file=.env src/chroma/client.ts"
+    "start": "node -r ts-node/register --env-file=.env src/chroma/RelevantInfo.ts"
   },
   "keywords": [],
   "author": "",

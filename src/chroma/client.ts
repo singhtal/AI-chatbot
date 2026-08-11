@@ -37,4 +37,4 @@ async function addData() {
     console.log(result);
 }
 
-addData();
+// addData();
