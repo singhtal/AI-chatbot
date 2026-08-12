@@ -6,6 +6,12 @@
         "outDir": "dist",
         "strict": true,
         "esModuleInterop": true,
-        "useUnknownInCatchVariables": false
+        "useUnknownInCatchVariables": false,
+        "include": [
+            "src/**/*.ts"
+        ],
+        "exclude": [
+            "node_modules"
+        ],
     }
 }
