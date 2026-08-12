@@ -82,7 +82,7 @@ Question: ${question}`,
   }
 }
 async function main() {
-  await populateCollection()
+  await populateCollection();
 
   const rl = createInterface({ input, output });
 
