@@ -75,4 +75,4 @@ async function main() {
   return sortedSimilarity;
 }
 
-main();
+// main();
