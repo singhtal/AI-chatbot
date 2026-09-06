@@ -27,20 +27,21 @@ async function fromTemplate() {
 // fromTemplate();
 
 async function fromMessage() {
-    const prompt = ChatPromptTemplate.fromMessages([
-        [
-            'system', 'write a short description for the product provided by the user'
-        ],
-        ['human', '{product_name}']
-    ])
+  const prompt = ChatPromptTemplate.fromMessages([
+    [
+      "system",
+      "write a short description for the product provided by the user",
+    ],
+    ["human", "{product_name}"],
+  ]);
 
-    const chain = prompt.pipe(model);
+  const chain = prompt.pipe(model);
 
-    const result = await chain.invoke({
-        product_name: 'car',
-    })
+  const result = await chain.invoke({
+    product_name: "car",
+  });
 
-    console.log(result.content);
+  console.log(result.content);
 }
 
 fromMessage();
